@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="KOR">
+    <head>
+        <meta charset="utf-8">
+        <title>Lecture 5~</title>
+
+        <style>
+            *{
+                margin:2px;
+                padding:5px;
+            }
+            nav{
+                background-color: blanchedalmond;
+                border: 5px solid yellow;
+            }
+            section{
+                background-color: burlywood;
+            }
+            li,p{
+                color:cadetblue;
+            }
+            ul{
+                margin-left: 20px;
+            }
+            p{
+                font-weight: bold;
+            }
+            footer{
+                border:1px dashed black;
+            }
+            #header{
+                width:500px;
+                border:1px solid black;
+                font-size:1.5em;
+                font-weight: bold;
+                text-align:center;
+            }
+            #footer{
+                width:500px;
+                border:1px solid black;
+                font-size:1.5em;
+                font-weight: bold;
+                background-color: orange;
+                clear:both;
+            }
+            #wrap{
+                width:500px;
+                border:1px solid black;
+                overflow:hidden;
+            }
+            #wrap #content{
+                width:300px;
+                border-right:1px solid black;
+                float:left;
+            }
+            #wrap #banner{
+                float:left;
+            }
+            li{
+                color:blanchedalmond;
+            }
+            .menu1, .menu3{
+                color:blue;
+                font-weight:bold;
+                font-size:20px;
+            }
+            ol li.menu2{
+                color:red;
+            }
+            input{
+                color:green;
+                font-size:30px;
+                font-weight: bold;
+            }
+            input[type=text]{
+                color:orange;
+                font-size:50px;
+                width:200px;
+            }
+            input[type=tel]{
+                color:red;
+            }
+            img[src]{
+                border:5px solid green;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>My HomePage</h1>
+            <hr>
+        </header>
+
+        <nav>
+            <ul>
+                <li>HTML5</li>
+                <li>Css3</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+            </ul>
+        </nav>
+        <hr>
+
+        <section>
+            <h1>What is HTML5?</h1>
+            <p>
+                HTML is Goood!
+            </p>
+            
+        </section>
+        <hr>
+
+
+        <footer>
+            <p>주식회사 김기윤</p>
+        </footer>
+
+        <div id="header">
+            HEADER
+        </div>
+        
+        <div id="wrap">
+            <div id="content">
+                <ul>
+                    <li class="menu1">menu1</li>
+                    <li class="menu2">menu2</li>
+                    <li class="menu3">menu3</li>
+                    <li class="menu4">menu4</li>
+                </ul>
+
+                <ol>
+                    <li class="menu1">menu1</li>
+                    <li class="menu2">menu2</li>
+                    <li class="menu3">menu3</li>
+                    <li class="menu4">menu4</li>
+                </ol>
+            </div>
+            <div id="banner">
+                    <img src="lecture_material/del_image.jpg" width="30">
+            </div>
+        </div>
+
+        <div id="footer">
+            footer
+        </div>
+
+        <form action="#" method="#">
+            이름 : <input type="text" ><br>
+            아이디 : <input type="text"><br>
+            비밀번호 : <input type="password"><br>
+            전화번호 : <input type="tel"><br>
+        </form>
+
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png">
+    </body>
+</html>
