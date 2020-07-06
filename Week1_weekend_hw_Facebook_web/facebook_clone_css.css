@@ -1,0 +1,148 @@
+body{
+    margin:0;
+}
+header{
+    overflow: hidden;
+    background-color: #38589A;
+    height:100px;
+}
+header img{
+    width:230px;
+    margin-top:15px;
+    margin-left:10px;
+}
+a{
+    text-decoration-line: none;
+    color:blue;
+}
+
+
+#logo{
+    float:left;
+}
+#login{
+    float: right;
+}
+.login_form{
+    overflow: hidden;
+}
+.login_form div{
+    float:left;
+    margin:15px 10px;
+    color:white;
+    font-size:0.8em;
+}
+.login_form #forget{
+    opacity:0.7;
+    clear:both;
+    margin-left:180px;
+    margin-top:2px;
+    font-size:small;
+}
+.login_form input{
+    margin-top:5px;
+}
+.submit_button input{
+    margin-top: 20px;
+}
+
+
+#content{
+    overflow: hidden;
+    background: linear-gradient(to bottom, #FBFBFD, #D5DAE9) fixed;
+}
+.sign_up input[type=text]{
+    height:30px
+}.sign_up input[type=password]{
+    height:30px
+}
+.sign_up input[type=date]{
+    height:30px
+}
+.sign_up input[type=submit]{
+    margin-top: 20px;
+    width:150px;
+    height:30px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+    width:430px;
+}
+.desc p:nth-child(1){
+    font-weight: bold;
+    font-size:40px;
+    margin-bottom:5px;
+}
+.desc p:nth-child(2){
+    font-size:20px;
+    margin-top:5px;
+}
+.name{
+    overflow: hidden;
+}
+.sign_up input{
+    border-radius: 3px;
+    margin : 5px;
+}
+.name input:nth-child(1){
+    float:left;
+}
+.name input:nth-child(2){
+    float:left;
+}
+.birthday p{
+    color:gray;
+    margin-bottom:0px;
+}
+.gender p{
+    color:gray;
+    margin-bottom:0px;
+}
+.desc_more{
+    font-size:12px;
+    width:330px;
+    margin-top: 10px;
+}
+
+.left p{
+    font-weight: bold;
+    color:#38589A;
+    font-size:20px;
+    margin: 60px 60px 0px 60px;
+}
+.left img{
+    width:550px;
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.lan{
+    width:1000px;
+    margin:10px auto 0px auto;
+    border-bottom: 1px solid black;
+}
+.lan ul{
+    overflow: hidden;
+}
+.lan ul li{
+    list-style: none;
+    float:left;
+    margin:0px 10px 0px 0px;
+    font-size: 13px;
+}
+
+
+.function ul{
+    overflow: hidden;
+}
+.function ul li{
+    list-style: none;
+    float:left;
+    margin:0px 10px 4px 0px;
+    font-size: 13px;
+}
+
+

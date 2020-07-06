@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>title</title>
+    <link rel="stylesheet" href="facebook_clone_css.css">
 </head>
 <body>
     <header>
         <div id="logo">
-            <img src="https://ko-kr.facebook.com/" alt="facebookLOGO">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Facebook_New_Logo_%282015%29.svg/600px-Facebook_New_Logo_%282015%29.svg.png" alt="facebookLOGO">
         </div>
         <div id="login">
             <form class="login_form" action="#" method="post">
@@ -18,11 +19,11 @@
                 <div class="passwd">
                     비밀번호<br>
                     <input type="password">
-                    계정을 잊으셨나요?
                 </div>
                 <div class="submit_button">
                     <input type="submit" value="로그인">
                 </div>
+                <div id="forget">계정을 잊으셨나요?</div>
             </form>
         </div>
     </header>
@@ -32,22 +33,34 @@
             <img src="image/map.png" alt="world_map">
         </div>
         <div class="right">
-            <p>가입하기</p>
-            <p>빠르고 쉽습니다.</p>
+            <div class="desc">
+                <p>가입하기</p>
+                <p>빠르고 쉽습니다.</p>
+            </div>
             <form action="#" method="post">
                 <div class="sign_up">
-                    <input type="text" name="last_name"value="성(姓)">
-                    <input type="text" name="first_name" value="이름(성은 제외)">
-                    <input type="text" name="phone_email" value="휴대폰 번호 혹은 이메일">
-                    <input type="password" name="new_pw" value="새 비밀번호">
-                    <p>생일</p>
-                    <input type="date" name="bday">
+                    <div class="name">
+                        <input type="text" name="last_name"value="성(姓)">
+                        <input type="text" name="first_name" value="이름(성은 제외)">
+                    </div>
+                    <div>
+                        <input type="text" name="phone_email" value="휴대폰 번호 혹은 이메일" size=43.5>
+                    </div>
+                    <div>
+                    <input type="password" name="new_pw" value="새 비밀번호" size=43.5>
+                    </div>
+                    <div class="birthday">
+                        <p>생일</p>
+                        <input type="date" >
+                    </div>
+                    <div class="gender">
                     <p>성별</p>
-                    <input type="radio">여성
-                    <input type="radio">남성
-                    <input type="radio">직접 지정
-                    <p>가입하기 버튼을 클릭하면 Facebook의 <a href="#" target="_blank">약관</a>,<a href="#" target="_blank"> 데이터 정책</a> 및<a href="#" target="_blank"> 쿠키 정책</a><br>
-                        에 동의하게 됩니다. Facebook으로부터 SMS 알림을 받을 수 있으며 알림은 언제든지 옵트 아웃할 수 있습니다.</p>
+                        <input type="radio" name="gender">여성
+                        <input type="radio" name="gender">남성
+                        <input type="radio" name="gender">직접 지정
+                    </div>
+                    <div class="desc_more">
+                        가입하기 버튼을 클릭하면 Facebook의 <a href="#" target="_blank">약관</a>,<a href="#" target="_blank"> 데이터 정책</a> 및<a href="#" target="_blank"> 쿠키 정책</a>에 동의하게 됩니다. Facebook으로부터 SMS 알림을 받을 수 있으며 알림은 언제든지 옵트 아웃할 수 있습니다.</div>
                     <input type="submit" value="가입하기">
 
                 </div>
@@ -60,16 +73,16 @@
         <div class="lan">
             <ul>
                 <li>한국어</li>
-                <li><a href="#" target="_self"></a></li>
-                <li><a href="#" target="_self"></a></li>
-                <li><a href="#" target="_self"></a></li>
-                <li><a href="#" target="_self"></a></li>
-                <li><a href="#" target="_self"></a></li>
-                <li><a href="#" target="_self"></a></li>
-                <li><a href="#" target="_self"></a></li>
-                <li><a href="#" target="_self"></a></li>
-                <li><a href="#" target="_self"></a></li>
-                <li><a href="#" target="_self"></a></li>
+                <li><a href="#" target="_self">English (US)</a></li>
+                <li><a href="#" target="_self">Tiếng Việt</a></li>
+                <li><a href="#" target="_self">Bahasa Indonesia</a></li>
+                <li><a href="#" target="_self">ภาษาไทย</a></li>
+                <li><a href="#" target="_self">Español</a></li>
+                <li><a href="#" target="_self">中文(简体)</a></li>
+                <li><a href="#" target="_self">日本語</a></li>
+                <li><a href="#" target="_self">Português (Brasil)</a></li>
+                <li><a href="#" target="_self">Français (France)</a></li>
+                <li><a href="#" target="_self">Deutsch</a></li>
             </ul>
         </div>
         <div class="function">
@@ -103,7 +116,7 @@
                 <li><a href="#" target="_self">쿠키</a></li>
                 <li><a href="#" target="_self">AdChoices</a></li>
                 <li><a href="#" target="_self">이용약관</a></li>
-                <li><a href="#" target="_self">고객 센터</a></li>
+                <li><a href="#" target="_self">고객 센</a></li>
             </ul>
         </div>
     </footer>
