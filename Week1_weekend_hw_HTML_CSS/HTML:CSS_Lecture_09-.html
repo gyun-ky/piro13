@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="KOR">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style>
+            *{
+                margin: 0;
+                padding:0;
+            }
+            #chap9{
+                width:800px;
+                margin: 0 auto;
+            }
+            #chap9 p::first-letter{
+                font-size:2em;
+            }
+            #chap9 p::first-line{
+                font-weight: bold;
+                color: blueviolet;
+            }
+            #chap9 p a::after{
+                content : '-' attr(href);
+            }
+            #chap9 p::selection{
+                background-color: yellow;
+                color: black;
+            }
+            #chap10 div{
+                width:100px;
+                height:100px;
+            }
+            #chap10 div:nth-child(1){
+                background-color: red;
+            }
+            #chap10 div:nth-child(2){
+                background-color: green;
+                opacity: 0.5;
+            }
+            #chap10 div:nth-child(3){
+                background-color: blue;
+                display: inline;
+                opacity: 0.7;
+            }
+            #chap10 div:nth-child(4){
+                background-color: brown;
+                visibility: hidden;
+            }
+            #chap10 div:nth-child(5){
+                background-color: black;
+                display: inline-block;
+            }
+            #chap11 div{
+                width: 200px; height: 200px;
+                background-color:cadetblue;
+            }
+            #chap11 .one{
+                margin:10px;
+                display: inline-block;
+            }
+            #chap11 .two{
+                padding:10px;
+                display: inline-block;
+            }
+            #box div{
+                width: 100px;
+                height:100px;
+            }
+            #box div:nth-child(1){
+                background-color: red;
+            }
+            #box div:nth-child(2){
+                background-color: green;
+                border:5px solid black;
+                box-sizing: border-box;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="chap9">
+            <p>
+                이면도로 : 보도와 차도가 명확하게 구분되지 않은 좁은 도로 -> 포장 상태 좋지 않음 -> 이용자 넘어지거나 미끄러지는 사고 발생 / 이면 도로의 과속 방지턱 -> 전동 킥보드 바퀴가 작아 흔들리면서 넘어진다. 
+            </p>
+            <p>
+                <a href="http://www.google.com" target="_blank">서울산업진흥원</a>
+            </p>
+        </div>
+
+        <div id="chap10">
+            <div></div>
+            <div></div>
+            <div>content3</div>
+            <div>content3</div>
+            <div></div>
+        </div>
+
+        <div id="chap11">
+            <div class="one">
+            </div>
+            <div class="two">
+            </div>
+        </div>
+        <div id="box">
+            <div>content1</div>
+            <div>content2</div>
+        </div> 
+    </body>
+</html>

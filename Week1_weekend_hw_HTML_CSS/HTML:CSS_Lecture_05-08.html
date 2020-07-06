@@ -84,6 +84,34 @@
             img[src]{
                 border:5px solid green;
             }
+            li:hover{
+                color:orangered;
+            }
+            #practice{
+                width : 500px;
+                margin:0;
+                padding:0;
+            }
+            #practice{
+                margin :10px auto;
+            }
+            #practice ul li a{
+                color : black;
+            }
+            #practice ul li{
+                border : 1px solid black;
+            }
+            #practice ul li:first-child{
+                background-color: red;
+                border-radius: 2px 2px 0 0;
+            }
+            #practice ul li:last-child{
+                background-color: red;
+                border-radius: 0 0 2px 2px;
+            }
+            #pracrice ul li:nth-child(2n){
+                background-color : brwon;
+            }
         </style>
     </head>
     <body>
@@ -151,6 +179,19 @@
             비밀번호 : <input type="password"><br>
             전화번호 : <input type="tel"><br>
         </form>
+
+        <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+        </ul>
+
+        <div id="practice">
+            <ul>
+                <li><a href="#">menu1</a></li>
+                <li><a href="#">menu2</a></li>
+                <li><a href="#">menu3</a></li>
+            </ul>
+        </div>
 
         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png">
     </body>

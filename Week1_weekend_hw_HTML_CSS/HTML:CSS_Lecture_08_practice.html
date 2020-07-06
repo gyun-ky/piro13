@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="KOR">
+    <head>
+        <meta charset="utf-8">
+        <title>08_practice</title>
+        <style>
+            header, #content, #footer{
+                width:1000px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            #footer #left_space, header #left_space, #content #left_space{
+                width:150px;
+                height:150px;
+                border:1px solid black;
+                background-color: beige;
+                float:left;
+            }
+            #footer #center_space, header #center_space, #content #center_space{
+                width:694px;
+                height:150px;
+                border:1px solid black;
+                background-color: beige;
+                float:left;
+            }
+            #footer #right_space, header #right_space, #content #right_space{
+                width:150px;
+                height:150px;
+                border:1px solid black;
+                background-color: beige;
+                float:right;
+            }
+            header #left_space, #footer #right_space {
+                border-radius: 30px 0;
+            }
+            header #right_space, #footer #left_space{
+                border-radius: 0 30px;
+            }
+            header #center_space{
+                border-radius: 0 0 30px 30px;
+            }
+            #footer #center_space{
+                border-radius: 30px 30px 0 0;
+            }
+            #content #center_space{
+                border-radius: 30px 30px 30px 30px;
+            }
+            #content #center_space ul li{
+                float : left;
+                list-style-type: none;
+                padding: 10px;
+
+            }
+            .hiseoul{
+                clear: both;
+                margin:10px 10%;
+                font-size: small;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div id="left_space">
+
+            </div>
+            <div id="center_space">
+
+            </div>
+            <div id="right_space">
+
+            </div>
+        </header>
+
+        <div id="content">
+
+            <div id="left_space">
+
+            </div>
+            <div id="center_space">
+                <ul>
+                    <li>menu1</li>
+                    <li>menu2</li>
+                    <li>menu3</li>
+                    <li>menu4</li>
+                </ul>
+                <div class="hiseoul">
+                    <h1>하이서울브랜드</h1>
+                    <p>니나니노니나니노니나니노</p>
+                </div>
+            </div>
+            <div id="right_space">
+
+            </div>
+        </div>
+
+        <div id="footer">
+            <div id="left_space">
+
+            </div>
+            <div id="center_space">
+
+            </div>
+            <div id="right_space">
+            
+            </div>
+        </div>
+        
+
+    </body>
+</html>
