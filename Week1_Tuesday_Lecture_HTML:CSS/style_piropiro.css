@@ -1,0 +1,35 @@
+body{
+    margin:0px 0px;
+}
+nav{
+    margin:0px 0px;
+}
+nav div{
+    display:inline-block;
+    width:20%;
+    height:70px;
+    border:1px solid black;
+    text-align:center;
+    line-height: 70px;
+    font-size: 28px;
+    margin-right:-6px;
+}
+nav div a{
+    text-decoration-line: none;
+    color:black;
+}
+nav div:hover{
+    background-color: black;
+    color: yellow;
+}
+
+section div{
+    border:1px solid black;
+    margin: 10px auto;
+    width:60%;
+    padding:20px;
+}
+section div img{
+    width:300px;
+    margin:10px auto;
+}

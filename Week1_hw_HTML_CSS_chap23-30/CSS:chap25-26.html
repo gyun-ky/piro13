@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<link rel="stylesheet" href="title.css">-->
+    <style>
+        <!--@import url('title.css');-->
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #content_wrap1 {width: 200px; height: 200px; border:5px solid blue}
+        #content_wrap1 #content_tran{
+            width: 200px;
+            height:200px;
+            line-height: 200px;
+            text-align: center;
+            background-color: green;
+            opacity: 0.5;
+            transform: rotate(45deg) skewX(20deg) scale(2);
+            transform-origin: top right;
+        }
+        nav{
+            width:80%;
+            margin: 0px auto;
+        }
+        nav ul li{
+            display:inline-block;
+            background-color: green;
+            width:25%;
+            box-sizing: border-box;
+            margin: 0px -2px 0px -2px;
+            padding: 0px;
+        }
+        nav ul li:nth-child(1):hover{
+            background-color: yellow; transform: scale(2);
+            transform-origin: 50% 0; z-index: 9999;
+        }
+        nav ul li:nth-child(2):hover{
+            animation-name:ani;
+            animation-duration: 2s;
+            animation-direction: alternate;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+        }
+        @keyframes ani {
+            from{}
+            to{background-color: yellow; transform: scale(2) rotate(5deg);}
+        }
+
+    </style>
+</head>
+<body>
+    <div id="content_wrap1">
+        <div id="content_tran">content</div>
+    </div>
+    <br><br><br><br><br>
+    <div id="content_wrap2">
+        <div id="content_tran">content</div>
+    </div>
+    <nav>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </nav>
+</body>
+</html>

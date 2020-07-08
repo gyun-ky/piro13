@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #rec {width: 100px; height:200px; background-color: red;
+        transition-duration:3s;
+        transition-delay: 2s;
+        transition-timing-function:ease-out}
+        #rec:hover{width:200px; height:100px; background-color: green;}
+        #rec:active{width:200px; height:200px; background-color: blue; border-radius: 100px;}
+
+        nav ul li{
+            display: inline-block;
+            width : 100px;
+            height: 100px;
+            background-color: green;
+            transition-property: background-color, height;
+            transition-duration:5s, 2s;
+        }
+        nav ul li:nth-child(1):hover{
+            height : 250px;
+            background-color: red;
+        }
+        nav ul li:nth-child(2):hover{
+            height : 250px;
+            background-color: red;
+        }
+        nav ul li:nth-child(3):hover{
+            height : 250px;
+            background-color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="rec"></div>
+    <nav>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+</body>
+</html>

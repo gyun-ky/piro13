@@ -1,0 +1,14 @@
+@import "reset.css";
+:root{
+}
+
+.header_container{
+    padding:0 1rem;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom
+
+.header_icon{
+    font-size:1.5rem;
+}

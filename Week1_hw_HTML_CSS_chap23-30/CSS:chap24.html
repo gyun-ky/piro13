@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="prefixfree.min.js"></script>
+    <style>
+        *{
+            margin: 0; padding: 0;
+        }
+        #wrap{
+            position:relative;
+        }
+        #wrap #rec{
+            background-color: yellow;
+            width: 100px;
+            height: 100px;
+
+        }
+        #wrap #rec:hover{
+
+            animation-name:ani1;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes ani1 {
+            from{width: 100px}
+            to{width: 200px}
+        }
+
+
+        #circle {
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+
+            position:absolute;
+            left:0;
+            top:110px;
+
+            animation-name: ani2;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+        #circle:hover{
+            animation-play-state: paused;
+        }
+
+        @keyframes ani2 {
+            from{
+                width:100px; height: 100px;
+                left:0px;
+                top:110px;
+                transform: rotate(0deg);
+            }
+            to{
+                width:200px;
+                height:200px;
+                left:500px;
+                top:610px;
+                transform: rotate(360deg);
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="rec"></div>
+        <div id="circle"></div>
+    </div>
+</body>
+</html>
