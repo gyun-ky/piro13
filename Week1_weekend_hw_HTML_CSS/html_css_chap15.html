@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="reset.css">
+    <style>
+        header{
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        header .gnb{
+            width:100vw;
+            height:4vw;
+            background-color: black;
+        }
+        header .gnb ul{
+            width:90vw;
+            margin: 1px auto;
+        }
+        header .gnb ul a{
+            width: 10%;
+            height: 4vw;
+            color:white;
+            display: inline-block;
+            text-align: center;
+            line-height: 4vw;
+            box-sizing: border-box;
+        }
+        header .logo_img{
+            width:20vw;
+            margin:5vw auto;
+        }
+        header .logo img{
+            width:200px;
+            height:200px;
+        }
+        header .hit {
+        }
+        header .hit ul{
+            width:40vw;
+            margin: 0px 3px 0px auto;
+        }
+        header .hit ul a{
+            width: 24%;
+            height: 5vw;
+            line-height: 5vw;
+            display: inline-block;
+            border:1px solid black;
+            margin:0px -2px 1vw -3px;
+            text-align: center;
+        }
+        header .hit ul a:nth-child(1){
+            border-radius:10px 0px 0px 10px;
+        }
+        header .hit ul a:nth-child(4){
+            border-radius:0px 10px 10px 0px;
+        }
+        header .lnb{
+            width:100vw;
+            height: 4vw;
+            border-top:1px dashed gray;
+            border-bottom:1px dashed gray;
+        }
+        header .lnb ul{
+            width:90vw;
+            margin: 0px auto;
+        }
+        header .lnb ul a{
+            width:12%;
+            display: inline-block;
+            line-height: 4vw;
+            margin: 0px -2px;
+            text-align: center;
+        }
+        #content {
+            width:90vw;
+            margin:1vw auto;
+        }
+        #content .content1 .slide_banner{
+            display: inline-block;
+            text-align: center;
+            width:70%;
+            height:400px;
+            margin: 0px -2px;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        #content .content1 .side_banner{
+            width:30%;
+            height:400px;
+            display: inline-block;
+            text-align: center;
+            margin: 0px -2px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            border-left: none;
+        }
+        #content .content2{
+            width:100%;
+            margin: 5px auto;
+            border:1px solid black;
+            box-sizing: border-box;
+        }
+        #content .content2 .hit_product{
+            width: 100%;
+            margin: 1px auto;
+        }
+        #content .content2 .hit_product li{
+            display: inline-block;
+            width:24%;
+            height:200px;
+            margin: 1px 2px;
+            text-align: center;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        #content .content2 .md_product{
+            width : 100%;
+            margin: 1px auto;
+        }
+        #content .content2 .md_product li{
+            display: inline-block;
+            width:24%;
+            height:200px;
+            margin: 1px 2px;
+            text-align: center;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <header>
+        <div class="gnb">
+            <ul class="gnb_wrap">
+                <a href="#"><li class="gnb1">Login</li></a>
+                <a href="#"><li class="gnb2">Join US</li></a>
+                <a href="#"><li class="gnb3">Wish List</li></a>
+                <a href="#"><li class="gnb4">Cart</li></a>
+                <a href="#"><li class="gnb5">Order</li></a>
+                <a href="#"><li class="gnb6">Mypage</li></a>
+                <a href="#"><li class="gnb7">Notice</li></a>
+                <a href="#"><li class="gnb8">QnA</li></a>
+                <a href="#"><li class="gnb9">Review</li></a>
+                <a href="#"><li class="gnb10">Favorite</li></a>
+            </ul>
+        </div>
+        <div class="logo">
+            <div class="logo_img">
+                <img src="lecture_material/del_image.jpg" height="3024" width="3024"/>
+            </div>
+        </div>
+        <div class="hit">
+            <ul class="hit_wrap">
+                <a href="#"><li class="hit">hit1</li></a>
+                <a href="#"><li class="hit">hit2</li></a>
+                <a href="#"><li class="hit">hit3</li></a>
+                <a href="#"><li class="hit">hit4</li></a>
+            </ul>
+        </div>
+        <div class="lnb">
+            <ul class="menu_wrap">
+                <a href="#"><li class="menu">menu1</li></a>
+                <a href="#"><li class="menu">menu2</li></a>
+                <a href="#"><li class="menu">menu3</li></a>
+                <a href="#"><li class="menu">menu4</li></a>
+                <a href="#"><li class="menu">menu5</li></a>
+                <a href="#"><li class="menu">menu6</li></a>
+                <a href="#"><li class="menu">menu7</li></a>
+                <a href="#"><li class="menu">menu8</li></a>
+            </ul>
+        </div>
+    </header>
+    <div id="content">
+        <div class="content1">
+            <div class="slide_banner">slide_banner</div>
+            <div class="side_banner">side_banner</div>
+        </div>
+
+        <div class="content2">
+            <ul class="hit_product">
+                <li class="hit_product1">hit_product1</li>
+                <li class="hit_product2">hit_product2</li>
+                <li class="hit_product3">hit_product3</li>
+                <li class="hit_product4">hit_product4</li>
+            </ul>
+            <ul class="md_product">
+                <li class="md_product1">md_product1</li>
+                <li class="md_product2">md_product2</li>
+                <li class="md_product3">md_product3</li>
+                <li class="md_product4">md_product4</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="office_logo"></div>
+        <div class="office_address"></div>
+        <div class="shopping_info"></div>
+        <div class="copyright"></div>
+    </footer>
+</div>
+
+</body>
+</html>
