@@ -1,0 +1,102 @@
+
+.content{
+    width: 100%;
+    margin : 0px;
+}
+
+.content .main{
+    width:90%;
+    margin: 0px auto;
+}
+
+.content .main .section{
+    width:90%;
+    margin-top:10px;
+}
+
+.content .main .section .title{
+    margin:20px auto;
+}
+.content .main .section .title div{
+    width: 90%;
+    background: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.content .main .section .title div > h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*contents*/
+
+.content .main .section .contents{
+    margin:10px auto;
+}
+.content .main .section .contents div{
+    margin:10px auto;
+}
+
+.content .main .section .contents div button{
+    background-color: white;
+    border-radius: 5px;
+    border:1px solid darkgray;
+    color:darkgray;
+    padding:5px;
+}
+
+/*side-list*/
+
+.content .main .side-list ul{
+    width:90%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    list-style: none;
+    padding:0px
+}
+
+.content .main .side-list ul a{
+    text-decoration-line: none;
+}
+
+.content .main .side-list ul li{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    text-align:left;
+    color:blue;
+    border-bottom: 1px solid lightgray;
+}
+
+.content .main .side-list ul li:last-child{
+    border: none;
+}
+
+.content .main .side-list ul li:hover{
+    background: cornflowerblue;
+}
+
+.content .main .side-list ul a:hover{
+    color:white;
+}
+
+.content .main .side-list ul li p{
+    margin-left : 15px;
+}
+
+
+
+
+
+/*footer*/
+
+.footer .row{
+    margin: 0 5%;
+    height: 100px;
+    line-height: 100px;
+}
+
+
+
+
